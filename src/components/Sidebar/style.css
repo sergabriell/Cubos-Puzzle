@@ -1,0 +1,41 @@
+.menu-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 224px;
+  color: #fff;
+  font-weight: bold;
+  background: linear-gradient(180deg, #000000 0%, rgba(15, 13, 15, 0.65) 100%);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+  
+.div-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 24px; 
+}
+  
+.div-top span {
+  margin-top: 10px;
+}
+  
+.div-bot {
+  margin-bottom: 10px;
+  padding: 32px;
+}
+  
+.div-bot button {
+  all: unset;
+  background: #F0C551;
+  border-radius: 6px;
+  padding: 18px 59px;
+  cursor: pointer;
+}
+
+.div-bot button:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
+}

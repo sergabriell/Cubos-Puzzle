@@ -1,0 +1,19 @@
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.section-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 976px;
+  height: 500px;
+}
